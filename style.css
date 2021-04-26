@@ -1,0 +1,100 @@
+body{
+    background-image: url('1.jpg');
+    background-size: 100%  auto;
+}
+
+.content{
+    /*display: flex;
+    /*justify-content: center; /*Центрирование по горизонтали*/
+    /*align-items: center;     /*Центрирование по вертикали */
+    /* border:1px solid white; */
+    border-radius: 8px;
+    margin: 20%;
+    padding: 2%;
+    background-color:rgba(221, 228, 231, 0.4);
+}
+
+.card-body{
+ 
+    text-align: center;
+    height:200px;
+    margin: 5%;
+    padding: 2%;
+}
+
+select{
+    background-color: white;
+    opacity: 0.8;
+    border: 1px solid rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.card-header{
+    top: -10px;
+    color: white;
+    opacity: 1;
+    justify-content: center;
+    display: flex;
+    font-weight: 800;
+}
+.card-header span{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.card-header select{
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    margin-top: 15px;
+    background-color: rgba(221, 228, 231, 0.2);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+option{
+    color:#fff;
+    background: gray; 
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; 
+    /*grid-template-rows: 2fr 1fr;*/
+    grid-auto-rows: minmax(100px, auto); 
+    /* grid-gap: 10%; */
+    grid-row-gap: 10%;
+    grid-column-gap: 5%;
+}
+.grid div{
+    background-color: rgba(241, 247, 250, 0.6);
+    /* opacity: 0.5;    */
+}
+
+.col-6{
+    grid-row: 1/3;
+    /* display: flex; */
+    border-radius: 8px;
+    padding: 10%;
+}
+
+.col-3 {
+    display: flex;
+    border-radius: 8px;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;     /*Центрирование по вертикали */
+}
+
+/* .col-6 img{
+    opacity: 1;
+    width: 40%;
+} */
+
+.col-6 h2{
+    text-align: left;
+    margin-top: 0;
+    margin-left: 25%;
+}
